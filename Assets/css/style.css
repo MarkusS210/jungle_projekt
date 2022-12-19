@@ -1,0 +1,110 @@
+/* Global Styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: 100% 100vh;
+}
+
+
+@font-face {
+    src:url(../Font/FrederickatheGreat-Regular.ttf);
+    font-family: "Fredericka the Great";
+            }
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../Font/);
+}
+
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: #194553;
+    color: white;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+article{
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+        padding-left: 65px;
+        font-size: 35px;
+}
+
+header { background-image: url(../Image/Lev3_2_css-einführung_box-model_img.jpg);
+    font-family: "Fredericka the Great"; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.headerbeschreibung {
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+body header div nav a {
+    text-align: center;
+    padding-top: 10px;
+    border: 2px black;
+    border-radius: 5px; 
+    
+}
+
+.schriftWeiss {
+    color: white;
+}
+ 
+div nav article a{
+    text-align: center;
+    padding-right: 500px;
+}
+/* header {
+    font-family: "Fredericka the Great"; 
+} */
+
+main p {
+    text-align: center;
+    padding: 10px 380px;
+    margin: 10px;
+}
+
+main nav li {
+    margin:20px 100px 20px 100px
+    /* padding-right: 20px; */
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    display:block;
+    border:solid 3px;   
+}
+
+div a:hover{
+    background-color: white;
+    border: 2px black;
+    border-radius: 3px;
+}
+
+footer nav{
+    text-align: right;
+    margin: 10px;
+}
+
+article nav{
+    margin: 20Px;
+    border: 5px;
+    border-inline: 5px;
+    
+}
